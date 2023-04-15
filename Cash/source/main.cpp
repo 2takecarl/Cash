@@ -4,9 +4,13 @@
 
 int main()
 {
-	Window window;
-	window.Init();
-	window.Update();
-	window.Close();
+	Window app;
+	
+	printf("init");
+	app.Init();
+	printf("update");
+	app.Update();
+	printf("close");
+	app.Close();
 	return 0;
 }
