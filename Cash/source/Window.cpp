@@ -66,7 +66,7 @@ void Window::Update()
 		1, 2, 3
 	};
 
-	unsigned int vao, vbo, ebo;
+	unsigned int vao, vbo, ebo;//unnsignedsef
 	glGenVertexArrays(1, &vao);
 	glBindVertexArray(vao);
 	glGenBuffers(1, &vbo);
